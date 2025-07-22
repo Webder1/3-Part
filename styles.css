@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.menu li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 1.1rem;
+}
+
+.rating-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.stars {
+  font-size: 2rem;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.stars .star.hover,
+.stars .star.selected {
+  color: #f5b301;
+  transition: color 0.2s ease-in-out;
+}
+
+.comment-section {
+  margin-top: 20px;
+}
+
+.comment-section.hidden {
+  display: none;
+}
+
+.comment-section label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.comment-section textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  font-size: 1rem;
+}
