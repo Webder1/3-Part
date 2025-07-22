@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rate Your Experience</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>How was your meal?</h1>
+
+    <ul class="menu">
+      <li>Fatto Tiramisu</li>
+      <li>Scugnizzielli Nutella & Gelato</li>
+      <li>Affogato</li>
+      <li>Affogato Limoncello</li>
+    </ul>
+
+    <div class="rating-section">
+      <p>Rate your experience:</p>
+      <div class="stars" data-selected="0">
+        <span class="star" data-value="1">&#9733;</span>
+        <span class="star" data-value="2">&#9733;</span>
+        <span class="star" data-value="3">&#9733;</span>
+        <span class="star" data-value="4">&#9733;</span>
+        <span class="star" data-value="5">&#9733;</span>
+      </div>
+    </div>
+
+    <div class="comment-section hidden">
+      <label for="comments">What could have been better?</label>
+      <textarea id="comments" placeholder="Let us know what went wrong..." rows="4"></textarea>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
